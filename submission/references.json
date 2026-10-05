@@ -1,0 +1,9 @@
+[
+  {"title":"NASA C-MAPSS / Saxena and colleagues","description":"Public simulated run-to-failure engines. Our fleet is a declared abstraction.","url":"https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data"},
+  {"title":"de Pater and Mitici","description":"Prior integrated prognostics, repairable spares and shared maintenance slots. Integration alone is not our contribution.","url":"https://repository.tudelft.nl/record/uuid:92d2291b-8d94-4437-b6a4-f87333926bba"},
+  {"title":"LightGBM / Ke and colleagues","description":"Gradient-boosted decision trees used for horizon-specific classifiers.","url":"https://proceedings.neurips.cc/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html"},
+  {"title":"scikit-learn probability calibration","description":"Isotonic calibration uses separate engines. Brier loss alone does not isolate calibration quality.","url":"https://scikit-learn.org/stable/modules/calibration.html"},
+  {"title":"Romano, Patterson and Candes","description":"CQR was considered and not used: interval coverage does not supply the failure CDF the policy queries.","url":"https://arxiv.org/abs/1905.03222"},
+  {"title":"Lufthansa Technik AVIATAR","description":"Existing commercial predictive health analytics and maintenance planning. Our benchmark does not replace these services.","url":"https://www.aviatar.com/en"},
+  {"title":"Airbus Skywise Core","description":"Existing aircraft data integration and fleet-performance services. Field comparison remains future work.","url":"https://www.skywise.com/en/digital-platform/skywise-core"}
+]

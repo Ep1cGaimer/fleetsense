@@ -1,0 +1,106 @@
+{
+  "passed": false,
+  "handoff_placeholders": [],
+  "checks": [
+    {
+      "check": "Canonical toolkit snapshot",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "PDF page count",
+      "passed": true,
+      "detail": "6"
+    },
+    {
+      "check": "Text-extractable PDF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF below portal size limit",
+      "passed": true,
+      "detail": "1027757"
+    },
+    {
+      "check": "No submission placeholders",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "PDF number provenance",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Deck uses current measured summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF banned-word scan",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Simulated benchmark labelled honestly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Preregistration hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Completed measured verdict",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Verdict recomputed from measured inputs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Verdict wording recomputed from measured inputs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Independent checker",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "check": "Executed pytest evidence",
+      "passed": true,
+      "detail": "{'passed': 63, 'failed': 0}"
+    },
+    {
+      "check": "User-facing copy scan",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Video duration",
+      "passed": true,
+      "detail": "153.366667"
+    },
+    {
+      "check": "Video resolution",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Audio or documented captions-only mode",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Repository and video links present",
+      "passed": false,
+      "detail": ""
+    }
+  ]
+}

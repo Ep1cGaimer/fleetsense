@@ -1,0 +1,17 @@
+numpy
+pandas
+scipy
+scikit-learn
+lightgbm
+pyarrow
+PyYAML
+fastapi
+uvicorn
+plotly
+matplotlib
+pytest
+httpx
+playwright
+python-pptx
+PyMuPDF
+pyttsx3

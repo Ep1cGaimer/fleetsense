@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+artifacts/
+data/*
+!data/splits.json
+results/runs/
+results/dev/
+results/progress.json
+*.log
+test-results/
+tmp/
+***.tmp

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="FleetSense: fleet readiness, engine health and maintenance policy comparison for an air squadron.">
+  <title>FleetSense · Fleet replay</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%23101820'/%3E%3Cpath d='M8 24V8h16M8 16h12' stroke='%2379B8D8' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/app.css">
+  <script defer src="/vendor/plotly.min.js"></script>
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="masthead">
+    <a class="brand" href="#/fleet" aria-label="FleetSense home">
+      <span>FleetSense</span>
+    </a>
+    <nav aria-label="Sections">
+      <a href="#/fleet" data-route="fleet">Fleet replay</a>
+      <a href="#/engine" data-route="engine">Engine evidence</a>
+      <a href="#/policies" data-route="policies">Policy comparison</a>
+      <a href="#/calibration" data-route="calibration">Calibration</a>
+      <a href="#/audits" data-route="audits">Validation checks</a>
+    </nav>
+    <div class="unit" id="unit">Squadron simulation</div>
+  </header>
+  <main id="content" tabindex="-1"><div class="loading" aria-live="polite"><span></span><span></span><span></span></div></main>
+  <footer class="foot"><span>FleetSense runs on-premise. No data leaves the base network.</span><span id="source"></span></footer>
+</body>
+</html>

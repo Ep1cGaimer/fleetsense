@@ -1,0 +1,37 @@
+{
+  "duration_seconds": 85.899675,
+  "captions_only": false,
+  "voice_error": null,
+  "shots": [
+    {
+      "shot": "title",
+      "offset": 0,
+      "length": 9.132925
+    },
+    {
+      "shot": "fleet",
+      "offset": 9.132925,
+      "length": 17.726576
+    },
+    {
+      "shot": "engine",
+      "offset": 26.859501,
+      "length": 10.552608
+    },
+    {
+      "shot": "policies",
+      "offset": 37.412109,
+      "length": 20.675828
+    },
+    {
+      "shot": "calibration",
+      "offset": 58.087937,
+      "length": 11.702766
+    },
+    {
+      "shot": "audits",
+      "offset": 69.79070300000001,
+      "length": 15.976644
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "claim": "Development tuning achieved the declared failure budget",
+    "status": "Deviation",
+    "evidence": "results/tuning.json: no HT, CT or FC candidate met the budget; all used the registered fewest-failures fallback. This is not availability maximisation under a feasible budget."
+  },
+  {
+    "claim": "Forecast policy vs best simple policy: availability, failures, wasted life (public simulated benchmark, synthetic fleet)",
+    "status": "Measured (final-20261004T073432Z)",
+    "evidence": "primary; guardrails"
+  },
+  {
+    "claim": "Calibration of failure risk at the horizons the policy uses (untouched test engines)",
+    "status": "Measured (final-20261004T073432Z)",
+    "evidence": "calibration"
+  },
+  {
+    "claim": "Every schedule independently checked: no constraint violations",
+    "status": "Measured (final-20261004T073432Z)",
+    "evidence": "checker_violations"
+  },
+  {
+    "claim": "No future information reaches a policy (poisoned-future test)",
+    "status": "Measured (final-20261004T073432Z)",
+    "evidence": "audits.poisoned_future"
+  },
+  {
+    "claim": "Health history follows the engine serial across airframes",
+    "status": "Deviation",
+    "evidence": "Only lifecycle-instance removal and installation traces are demonstrated. Overhaul creates a new serial; physical-component continuity across overhaul or airframes is not established."
+  },
+  {
+    "claim": "Read-only adapters to e-MMS and IMMOLS",
+    "status": "Proposed",
+    "evidence": "Subject to authorised interface specification"
+  },
+  {
+    "claim": "Writing back work orders or spares demands",
+    "status": "Future",
+    "evidence": "Not implemented"
+  },
+  {
+    "claim": "Validation on real fleet data",
+    "status": "Future",
+    "evidence": "Public simulated benchmark only"
+  },
+  {
+    "claim": "Access control, audit logging, signed updates, pinned dependencies, backups",
+    "status": "Requirement",
+    "evidence": "Production requirements; not a security certification"
+  },
+  {
+    "claim": "Identifying the physical fault behind a risk score",
+    "status": "Not established",
+    "evidence": "Evidence view shows model evidence only"
+  }
+]

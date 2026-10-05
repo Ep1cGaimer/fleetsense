@@ -1,0 +1,224 @@
+project: FleetSense
+problem_id: SIH26249
+seed: 20261004
+data:
+  subsets:
+  - FD001
+  - FD003
+  test_per_subset: 30
+  folds: 4
+  sensor_std_min: 0.0001
+  sensor_unique_min: 2
+  expected_sensors:
+  - s2
+  - s3
+  - s4
+  - s7
+  - s8
+  - s9
+  - s11
+  - s12
+  - s13
+  - s14
+  - s15
+  - s17
+  - s20
+  - s21
+  splits_sha256: b1deaca9d87d6531be1e32980146c45755d0eece9dd748c648f83be8205f0211
+  raw_sha256:
+    FD001: 963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8
+    FD003: 2abbe9968cc5e8eb091980f51b20f62bb4127336d3482cb52071d53bf23329e2
+  final_training_sensors:
+  - s2
+  - s3
+  - s4
+  - s6
+  - s7
+  - s8
+  - s9
+  - s10
+  - s11
+  - s12
+  - s13
+  - s14
+  - s15
+  - s17
+  - s20
+  - s21
+features:
+  windows:
+  - 5
+  - 20
+  slope_min: 5
+  ewm_alpha: 0.1
+forecast:
+  horizons:
+  - 10
+  - 20
+  - 30
+  - 40
+  - 50
+  - 60
+  - 80
+  - 100
+  n_estimators: 400
+  learning_rate: 0.05
+  num_leaves: 31
+  min_child_samples: 50
+  subsample: 0.8
+  subsample_freq: 1
+  colsample_bytree: 0.8
+  random_state: 0
+  verbose: -1
+  n_jobs: 2
+health_index:
+  alpha: 1.0
+  rul_clip: 125
+sim:
+  days: 365
+  aircraft: 12
+  spares: 3
+  capacity: 1
+  planned_downtime: 2
+  rates:
+  - 0.6
+  - 1.0
+  - 1.4
+  downtime_ratios:
+  - 2
+  - 4
+  - 8
+  turnarounds:
+  - 20
+  - 45
+  initial_age_max_fraction: 0.6
+  lead_days: 14
+  overhaul: new_trajectory
+  duration_semantics: start_through_start_plus_duration_minus_one_inclusive
+  failed_day_available: false
+  pending_planned: flies_until_start_or_failure
+tuning:
+  ht:
+  - 100
+  - 110
+  - 120
+  - 130
+  - 140
+  - 150
+  - 160
+  - 170
+  - 180
+  - 190
+  - 200
+  - 210
+  - 220
+  - 230
+  - 240
+  - 250
+  - 260
+  ct:
+  - 0.02
+  - 0.04
+  - 0.06
+  - 0.08
+  - 0.1
+  - 0.12
+  - 0.14
+  - 0.16
+  - 0.18
+  - 0.2
+  - 0.22
+  - 0.24
+  - 0.26
+  - 0.28
+  - 0.3
+  - 0.32
+  - 0.34
+  - 0.36
+  - 0.38
+  - 0.4
+  fc:
+  - 0.02
+  - 0.05
+  - 0.1
+  - 0.15
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  seeds:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  failure_budget: 0.1
+  selected:
+    HT: 100
+    CT: 0.4
+    FC: 0.02
+    best_simple: CT
+evaluation:
+  seeds:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  bootstrap_replicates: 500
+  bootstrap_seeds_per_cell: 2
+  bootstrap_upgrade_if_dry_seconds_below: 1200
+  bootstrap_upgrade_replicates: 500
+  bootstrap_seed: 20261005
+  confidence: 0.95
+  reliability_bins: 10
+  scale_aircraft:
+  - 12
+  - 50
+  - 200
+  scale_seconds_per_day_limit: 1.0
+  early_days: 30
+  minimum_gain_pp: 1.0
+  failure_upper_guardrail: 0.05
+  waste_ratio_guardrail: 1.1
+  flying_delta_guardrail_pp: -0.5
+  frontier_seeds:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  workers: 6
+replay:
+  rate: 1.0
+  downtime_ratio: 4
+  turnaround: 45
+  seed: 0
+presentation:
+  data_labels:
+  - public simulated engine benchmark (NASA C-MAPSS)
+  - synthetic fleet scenario
+  slide_count: 6
+  video_max_seconds: 195
+  project_year: 2026
+  problem_number: 26249
+  ui_play_days_per_second: 10
+  ui_port: 8601
+  python_version: 3.12.14
+  slide_ordinals:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6

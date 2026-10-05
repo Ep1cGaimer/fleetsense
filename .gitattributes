@@ -1,0 +1,10 @@
+config/prereg.yaml text eol=crlf
+data/splits.json text eol=crlf
+results/prereg.lock text eol=crlf
+requirements.lock text eol=crlf
+app/ui/vendor/plotly.min.js -text
+app/ui/vendor/LICENSE.txt text eol=lf
+scripts/*.py text eol=lf
+submission/*.py text eol=lf
+submission/export_pdf.ps1 text eol=lf
+submission/README.md text eol=lf

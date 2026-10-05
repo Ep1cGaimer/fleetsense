@@ -1,0 +1,51 @@
+{
+  "run_id": "final-20261004T073432Z",
+  "evaluation_kind": "final_test",
+  "git_commit": "0e227075f4635a0a8acd59ff792f42d64d19b1a9",
+  "prereg_sha256": "bb690944832778b5754e68988edc6a789bc1675f0d9363d71cdaeb172d2af089",
+  "dataset_sha256": {
+    "FD001": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+    "FD003": "2abbe9968cc5e8eb091980f51b20f62bb4127336d3482cb52071d53bf23329e2"
+  },
+  "splits_sha256": "b1deaca9d87d6531be1e32980146c45755d0eece9dd748c648f83be8205f0211",
+  "seeds": {
+    "split": 20261004,
+    "scenario": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "bootstrap": 20261005
+  },
+  "pip_freeze_sha256": "34f4d012ba14fe67e0a97d81d83f7161c9d2812d445b351308d84a108c4b5e35",
+  "requirements_lock_sha256": "2e7eeca3e995c8c7763c7beca61eedab8f017f39e331821b8d8f3188aaa22824",
+  "os": "Windows-11-10.0.26300-SP0",
+  "cpu": "AMD64 Family 25 Model 116 Stepping 1, AuthenticAMD",
+  "logical_cpus": 16,
+  "gpu": "not used; CPU-only experiment",
+  "python": "3.12.14",
+  "started_utc": "2026-10-04T07:34:32.783125+00:00",
+  "wall_seconds": 1881.1025996000008,
+  "tests": {
+    "passed": 63,
+    "failed": 0,
+    "output": "........................................................                 [100%]\n56 passed, 7 deselected in 1.60s\n.......                                                                  [100%]\n7 passed, 56 deselected in 17.65s",
+    "core_passed": 56,
+    "ui_passed": 7
+  },
+  "event_archive": {
+    "path": "results\\runs\\final-20261004T073432Z",
+    "files": 134463,
+    "bytes": 1706183986,
+    "aggregate_sha256": "afb433b9c53f9916fd44e63d7c3d1cc21bd3bb31ca087a0a07b9df32110ab78b",
+    "retention": "Full local logs retained; ignored by Git. All logs were independently checked."
+  },
+  "test_tables_sha256": "407899726b9647f57722523a6e15a890aa561a4343f3907a198a922d390669fa"
+}

@@ -1,0 +1,1741 @@
+{
+  "schema_version": 1,
+  "run_id": "final-20261004T073432Z",
+  "data_labels": [
+    "public simulated engine benchmark (NASA C-MAPSS)",
+    "synthetic fleet scenario"
+  ],
+  "rates": [
+    0.6,
+    1.0,
+    1.4
+  ],
+  "ratios": [
+    2,
+    4,
+    8
+  ],
+  "turnarounds": [
+    20,
+    45
+  ],
+  "cells": [
+    {
+      "cell_key": "r0.6_u2_R20",
+      "rate": 0.6,
+      "downtime_ratio": 2,
+      "turnaround": 20,
+      "delta_availability_pp": 0.04109589041096928,
+      "delta_failures": 0.0,
+      "waste_ratio": 0.5215123859191656,
+      "delta_flying_pp": -0.0625480065426176,
+      "ci95_pp": [
+        0.0,
+        0.11415525114155667
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.987648401826484,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 2.2583333333333337,
+          "flying_delivered": 0.9876983421034241,
+          "early_availability": 0.9772222222222222,
+          "availability_pct": 98.7648401826484,
+          "wasted_life_cycles": 111.2730627306273,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.9942922374429223,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 1.0416666666666665,
+          "flying_delivered": 0.9948139474886439,
+          "early_availability": 1.0,
+          "availability_pct": 99.42922374429223,
+          "wasted_life_cycles": 30.68,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.994703196347032,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 0.9666666666666666,
+          "flying_delivered": 0.9941884674232178,
+          "early_availability": 1.0,
+          "availability_pct": 99.4703196347032,
+          "wasted_life_cycles": 16.0,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.9942694063926941,
+          "failures_per_aircraft_year": 0.03333333333333333,
+          "planned_per_aircraft_year": 0.9166666666666667,
+          "flying_delivered": 0.994917922276659,
+          "early_availability": 1.0,
+          "availability_pct": 99.42694063926942,
+          "wasted_life_cycles": 7.590909090909091,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    },
+    {
+      "cell_key": "r0.6_u2_R45",
+      "rate": 0.6,
+      "downtime_ratio": 2,
+      "turnaround": 45,
+      "delta_availability_pp": -0.36301369863015465,
+      "delta_failures": 0.1,
+      "waste_ratio": 0.5367558987642539,
+      "delta_flying_pp": -0.3006552377161187,
+      "ci95_pp": [
+        -0.878995433789953,
+        0.2631278538812818
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.9886986301369862,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 2.0666666666666664,
+          "flying_delivered": 0.9891820422727078,
+          "early_availability": 0.9855555555555554,
+          "availability_pct": 98.86986301369862,
+          "wasted_life_cycles": 98.87096774193549,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.9929223744292239,
+          "failures_per_aircraft_year": 0.041666666666666664,
+          "planned_per_aircraft_year": 1.0,
+          "flying_delivered": 0.9931781460508216,
+          "early_availability": 1.0,
+          "availability_pct": 99.2922374429224,
+          "wasted_life_cycles": 24.925,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.9892922374429224,
+          "failures_per_aircraft_year": 0.14166666666666666,
+          "planned_per_aircraft_year": 0.8583333333333334,
+          "flying_delivered": 0.9901715936736604,
+          "early_availability": 1.0,
+          "availability_pct": 98.92922374429224,
+          "wasted_life_cycles": 13.37864077669903,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.9834018264840182,
+          "failures_per_aircraft_year": 0.225,
+          "planned_per_aircraft_year": 0.7666666666666667,
+          "flying_delivered": 0.9846021965505425,
+          "early_availability": 1.0,
+          "availability_pct": 98.34018264840182,
+          "wasted_life_cycles": 6.5978260869565215,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    },
+    {
+      "cell_key": "r0.6_u4_R20",
+      "rate": 0.6,
+      "downtime_ratio": 4,
+      "turnaround": 20,
+      "delta_availability_pp": 0.07534246575341408,
+      "delta_failures": 0.0,
+      "waste_ratio": 0.5145586460390608,
+      "delta_flying_pp": 0.17656798886961367,
+      "ci95_pp": [
+        0.0,
+        0.11415525114155667
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.9876027397260275,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 2.2666666666666666,
+          "flying_delivered": 0.9878206221134084,
+          "early_availability": 0.9805555555555555,
+          "availability_pct": 98.76027397260275,
+          "wasted_life_cycles": 108.28308823529412,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.9941324200913243,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 1.0749999999999997,
+          "flying_delivered": 0.9933230597357887,
+          "early_availability": 1.0,
+          "availability_pct": 99.41324200913243,
+          "wasted_life_cycles": 30.27906976744186,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.9948858447488584,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 0.9333333333333333,
+          "flying_delivered": 0.9950887396244849,
+          "early_availability": 1.0,
+          "availability_pct": 99.48858447488584,
+          "wasted_life_cycles": 15.580357142857142,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.9948858447488584,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 0.9333333333333333,
+          "flying_delivered": 0.9949073614196731,
+          "early_availability": 1.0,
+          "availability_pct": 99.48858447488584,
+          "wasted_life_cycles": 7.491071428571429,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    },
+    {
+      "cell_key": "r0.6_u4_R45",
+      "rate": 0.6,
+      "downtime_ratio": 4,
+      "turnaround": 45,
+      "delta_availability_pp": -0.15296803652969926,
+      "delta_failures": 0.05833333333333333,
+      "waste_ratio": 0.513711049327936,
+      "delta_flying_pp": -0.17990686917317422,
+      "ci95_pp": [
+        -1.0790525114155256,
+        0.3370433789954347
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.9891780821917809,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 1.9749999999999996,
+          "flying_delivered": 0.9886806653869117,
+          "early_availability": 0.985,
+          "availability_pct": 98.9178082191781,
+          "wasted_life_cycles": 94.40506329113924,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.9931963470319636,
+          "failures_per_aircraft_year": 0.03333333333333333,
+          "planned_per_aircraft_year": 1.0083333333333333,
+          "flying_delivered": 0.9932548420795492,
+          "early_availability": 1.0,
+          "availability_pct": 99.31963470319636,
+          "wasted_life_cycles": 27.214876033057852,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.9916666666666666,
+          "failures_per_aircraft_year": 0.09166666666666666,
+          "planned_per_aircraft_year": 0.8583333333333334,
+          "flying_delivered": 0.9914557733878174,
+          "early_availability": 1.0,
+          "availability_pct": 99.16666666666666,
+          "wasted_life_cycles": 13.980582524271844,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.9872602739726026,
+          "failures_per_aircraft_year": 0.16666666666666666,
+          "planned_per_aircraft_year": 0.7666666666666667,
+          "flying_delivered": 0.9877274265083203,
+          "early_availability": 1.0,
+          "availability_pct": 98.72602739726027,
+          "wasted_life_cycles": 6.967391304347826,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    },
+    {
+      "cell_key": "r0.6_u8_R20",
+      "rate": 0.6,
+      "downtime_ratio": 8,
+      "turnaround": 20,
+      "delta_availability_pp": 0.050228310502287155,
+      "delta_failures": 0.0,
+      "waste_ratio": 0.5210398751906749,
+      "delta_flying_pp": -0.004203248291911876,
+      "ci95_pp": [
+        0.0,
+        0.11415525114155667
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.9876255707762557,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 2.2583333333333333,
+          "flying_delivered": 0.9868625571857231,
+          "early_availability": 0.9802777777777777,
+          "availability_pct": 98.76255707762557,
+          "wasted_life_cycles": 112.3690036900369,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.9941552511415525,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 1.0666666666666669,
+          "flying_delivered": 0.994511375263279,
+          "early_availability": 1.0,
+          "availability_pct": 99.41552511415524,
+          "wasted_life_cycles": 30.7734375,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.9946575342465753,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 0.975,
+          "flying_delivered": 0.9944693427803599,
+          "early_availability": 1.0,
+          "availability_pct": 99.46575342465754,
+          "wasted_life_cycles": 16.034188034188034,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.9950228310502283,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 0.9083333333333332,
+          "flying_delivered": 0.9951944205278117,
+          "early_availability": 1.0,
+          "availability_pct": 99.50228310502283,
+          "wasted_life_cycles": 7.541284403669724,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    },
+    {
+      "cell_key": "r0.6_u8_R45",
+      "rate": 0.6,
+      "downtime_ratio": 8,
+      "turnaround": 45,
+      "delta_availability_pp": 0.11643835616439446,
+      "delta_failures": -0.016666666666666663,
+      "waste_ratio": 0.5105042016806723,
+      "delta_flying_pp": 0.11313781040993565,
+      "ci95_pp": [
+        -1.771689497716903,
+        0.4055365296803576
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.9890639269406393,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 2.0,
+          "flying_delivered": 0.9891595604564207,
+          "early_availability": 0.9855555555555556,
+          "availability_pct": 98.90639269406392,
+          "wasted_life_cycles": 101.42083333333333,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.9920776255707763,
+          "failures_per_aircraft_year": 0.041666666666666664,
+          "planned_per_aircraft_year": 1.0166666666666666,
+          "flying_delivered": 0.9923538272342547,
+          "early_availability": 1.0,
+          "availability_pct": 99.20776255707763,
+          "wasted_life_cycles": 28.0,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.9932420091324202,
+          "failures_per_aircraft_year": 0.025,
+          "planned_per_aircraft_year": 0.9916666666666666,
+          "flying_delivered": 0.993485205338354,
+          "early_availability": 1.0,
+          "availability_pct": 99.32420091324202,
+          "wasted_life_cycles": 14.294117647058824,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.9883561643835617,
+          "failures_per_aircraft_year": 0.11666666666666667,
+          "planned_per_aircraft_year": 0.8333333333333334,
+          "flying_delivered": 0.9879221460059984,
+          "early_availability": 1.0,
+          "availability_pct": 98.83561643835617,
+          "wasted_life_cycles": 6.97,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    },
+    {
+      "cell_key": "r1_u2_R20",
+      "rate": 1.0,
+      "downtime_ratio": 2,
+      "turnaround": 20,
+      "delta_availability_pp": 0.01369863013698236,
+      "delta_failures": 0.0,
+      "waste_ratio": 1.0191229103078567,
+      "delta_flying_pp": -0.03504288558187074,
+      "ci95_pp": [
+        -0.057077625570778334,
+        0.14297945205479365
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.9802283105022831,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 3.6083333333333334,
+          "flying_delivered": 0.9801834926142746,
+          "early_availability": 0.9713888888888889,
+          "availability_pct": 98.0228310502283,
+          "wasted_life_cycles": 109.73210161662817,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.9894520547945206,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 1.925,
+          "flying_delivered": 0.9895259334847237,
+          "early_availability": 1.0,
+          "availability_pct": 98.94520547945206,
+          "wasted_life_cycles": 29.41125541125541,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.9895890410958904,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 1.9,
+          "flying_delivered": 0.989175504628905,
+          "early_availability": 1.0,
+          "availability_pct": 98.95890410958904,
+          "wasted_life_cycles": 29.973684210526315,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.9905479452054793,
+          "failures_per_aircraft_year": 0.008333333333333333,
+          "planned_per_aircraft_year": 1.7,
+          "flying_delivered": 0.9907141109938724,
+          "early_availability": 1.0,
+          "availability_pct": 99.05479452054793,
+          "wasted_life_cycles": 12.946078431372548,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    },
+    {
+      "cell_key": "r1_u2_R45",
+      "rate": 1.0,
+      "downtime_ratio": 2,
+      "turnaround": 45,
+      "delta_availability_pp": 0.4817351598173758,
+      "delta_failures": -0.09166666666666667,
+      "waste_ratio": 0.9367200864792251,
+      "delta_flying_pp": 0.4439914326895722,
+      "ci95_pp": [
+        -0.4908675799086773,
+        1.5014269406392684
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.9749086757990868,
+          "failures_per_aircraft_year": 0.32499999999999996,
+          "planned_per_aircraft_year": 1.8416666666666663,
+          "flying_delivered": 0.9755850611236727,
+          "early_availability": 0.9833333333333332,
+          "availability_pct": 97.49086757990868,
+          "wasted_life_cycles": 67.11764705882354,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.9724200913242008,
+          "failures_per_aircraft_year": 0.4166666666666667,
+          "planned_per_aircraft_year": 1.225,
+          "flying_delivered": 0.9729310267579498,
+          "early_availability": 1.0,
+          "availability_pct": 97.24200913242008,
+          "wasted_life_cycles": 24.006802721088434,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.9772374429223746,
+          "failures_per_aircraft_year": 0.325,
+          "planned_per_aircraft_year": 1.35,
+          "flying_delivered": 0.9773709410848456,
+          "early_availability": 1.0,
+          "availability_pct": 97.72374429223746,
+          "wasted_life_cycles": 22.487654320987655,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.9616666666666667,
+          "failures_per_aircraft_year": 0.5833333333333334,
+          "planned_per_aircraft_year": 0.9333333333333333,
+          "flying_delivered": 0.9616916343212768,
+          "early_availability": 1.0,
+          "availability_pct": 96.16666666666667,
+          "wasted_life_cycles": 11.714285714285714,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    },
+    {
+      "cell_key": "r1_u4_R20",
+      "rate": 1.0,
+      "downtime_ratio": 4,
+      "turnaround": 20,
+      "delta_availability_pp": 0.015981735159809052,
+      "delta_failures": 0.0,
+      "waste_ratio": 1.0373827719752173,
+      "delta_flying_pp": -0.0005054350734612356,
+      "ci95_pp": [
+        -0.0684931506849229,
+        0.1826484018264854
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.9804794520547946,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 3.5666666666666664,
+          "flying_delivered": 0.9814723787364263,
+          "early_availability": 0.9708333333333332,
+          "availability_pct": 98.04794520547946,
+          "wasted_life_cycles": 108.20093457943925,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.9897260273972602,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 1.875,
+          "flying_delivered": 0.9903173932750825,
+          "early_availability": 1.0,
+          "availability_pct": 98.97260273972603,
+          "wasted_life_cycles": 29.06222222222222,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.9898858447488583,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 1.85,
+          "flying_delivered": 0.9903123389243479,
+          "early_availability": 1.0,
+          "availability_pct": 98.98858447488583,
+          "wasted_life_cycles": 30.14864864864865,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.9898173515981735,
+          "failures_per_aircraft_year": 0.041666666666666664,
+          "planned_per_aircraft_year": 1.6,
+          "flying_delivered": 0.9899939925074686,
+          "early_availability": 1.0,
+          "availability_pct": 98.98173515981735,
+          "wasted_life_cycles": 13.21875,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    },
+    {
+      "cell_key": "r1_u4_R45",
+      "rate": 1.0,
+      "downtime_ratio": 4,
+      "turnaround": 45,
+      "delta_availability_pp": 0.23059360730594003,
+      "delta_failures": -0.03333333333333338,
+      "waste_ratio": 0.9521002256344908,
+      "delta_flying_pp": 0.2499714543244158,
+      "ci95_pp": [
+        -0.6740867579908638,
+        1.6786529680365347
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.9715296803652969,
+          "failures_per_aircraft_year": 0.3416666666666667,
+          "planned_per_aircraft_year": 1.8083333333333336,
+          "flying_delivered": 0.9717498432890647,
+          "early_availability": 0.9833333333333332,
+          "availability_pct": 97.15296803652969,
+          "wasted_life_cycles": 67.69124423963133,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.9739497716894977,
+          "failures_per_aircraft_year": 0.3416666666666667,
+          "planned_per_aircraft_year": 1.325,
+          "flying_delivered": 0.9733317190770441,
+          "early_availability": 1.0,
+          "availability_pct": 97.39497716894977,
+          "wasted_life_cycles": 24.949685534591193,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.9762557077625571,
+          "failures_per_aircraft_year": 0.3083333333333333,
+          "planned_per_aircraft_year": 1.3583333333333332,
+          "flying_delivered": 0.9758314336202882,
+          "early_availability": 0.9997222222222222,
+          "availability_pct": 97.62557077625571,
+          "wasted_life_cycles": 23.754601226993866,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.9591324200913244,
+          "failures_per_aircraft_year": 0.4750000000000001,
+          "planned_per_aircraft_year": 1.0083333333333333,
+          "flying_delivered": 0.9590333183205482,
+          "early_availability": 1.0,
+          "availability_pct": 95.91324200913243,
+          "wasted_life_cycles": 11.074380165289256,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    },
+    {
+      "cell_key": "r1_u8_R20",
+      "rate": 1.0,
+      "downtime_ratio": 8,
+      "turnaround": 20,
+      "delta_availability_pp": 0.011415525114166769,
+      "delta_failures": 0.0,
+      "waste_ratio": 1.0230042122659573,
+      "delta_flying_pp": 0.018426532663029516,
+      "ci95_pp": [
+        -0.06849315068492873,
+        0.34845890410959035
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.9804794520547946,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 3.5666666666666673,
+          "flying_delivered": 0.9803764251639093,
+          "early_availability": 0.9724999999999999,
+          "availability_pct": 98.04794520547946,
+          "wasted_life_cycles": 109.25700934579439,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.9897716894977169,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 1.8666666666666667,
+          "flying_delivered": 0.9895309847470433,
+          "early_availability": 1.0,
+          "availability_pct": 98.97716894977168,
+          "wasted_life_cycles": 29.933035714285715,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.9898858447488585,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 1.85,
+          "flying_delivered": 0.9897152500736736,
+          "early_availability": 0.9997222222222222,
+          "availability_pct": 98.98858447488585,
+          "wasted_life_cycles": 30.62162162162162,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.9903881278538812,
+          "failures_per_aircraft_year": 0.008333333333333333,
+          "planned_per_aircraft_year": 1.6833333333333331,
+          "flying_delivered": 0.9896485851827406,
+          "early_availability": 1.0,
+          "availability_pct": 99.03881278538812,
+          "wasted_life_cycles": 13.009900990099009,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    },
+    {
+      "cell_key": "r1_u8_R45",
+      "rate": 1.0,
+      "downtime_ratio": 8,
+      "turnaround": 45,
+      "delta_availability_pp": 0.7876712328767188,
+      "delta_failures": -0.08333333333333337,
+      "waste_ratio": 0.9697159429275337,
+      "delta_flying_pp": 0.8954345569523903,
+      "ci95_pp": [
+        -0.8164954337899506,
+        2.021689497716895
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.9673972602739725,
+          "failures_per_aircraft_year": 0.3,
+          "planned_per_aircraft_year": 1.8416666666666663,
+          "flying_delivered": 0.9692310761243966,
+          "early_availability": 0.985,
+          "availability_pct": 96.73972602739725,
+          "wasted_life_cycles": 65.19909502262443,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.9539269406392693,
+          "failures_per_aircraft_year": 0.4833333333333334,
+          "planned_per_aircraft_year": 1.1083333333333334,
+          "flying_delivered": 0.952498458877488,
+          "early_availability": 1.0,
+          "availability_pct": 95.39269406392692,
+          "wasted_life_cycles": 24.909774436090224,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.9618036529680365,
+          "failures_per_aircraft_year": 0.4,
+          "planned_per_aircraft_year": 1.2333333333333336,
+          "flying_delivered": 0.9614528044470119,
+          "early_availability": 1.0,
+          "availability_pct": 96.18036529680364,
+          "wasted_life_cycles": 24.155405405405407,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.9332420091324203,
+          "failures_per_aircraft_year": 0.6416666666666667,
+          "planned_per_aircraft_year": 0.7833333333333332,
+          "flying_delivered": 0.9337103388032549,
+          "early_availability": 1.0,
+          "availability_pct": 93.32420091324202,
+          "wasted_life_cycles": 12.106382978723405,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    },
+    {
+      "cell_key": "r1.4_u2_R20",
+      "rate": 1.4,
+      "downtime_ratio": 2,
+      "turnaround": 20,
+      "delta_availability_pp": 0.09132420091322313,
+      "delta_failures": -0.058333333333333334,
+      "waste_ratio": 1.0437538839591305,
+      "delta_flying_pp": -0.0053205141302803405,
+      "ci95_pp": [
+        -0.08590182648401545,
+        0.35388127853881457
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.9750913242009132,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 4.5583333333333345,
+          "flying_delivered": 0.9762208569695401,
+          "early_availability": 0.9697222222222223,
+          "availability_pct": 97.50913242009132,
+          "wasted_life_cycles": 102.58500914076782,
+          "reuse_events": 10,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.985068493150685,
+          "failures_per_aircraft_year": 0.058333333333333334,
+          "planned_per_aircraft_year": 2.458333333333333,
+          "flying_delivered": 0.9856049680021046,
+          "early_availability": 1.0,
+          "availability_pct": 98.50684931506851,
+          "wasted_life_cycles": 27.91186440677966,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.9859817351598172,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 2.566666666666667,
+          "flying_delivered": 0.9855517628608018,
+          "early_availability": 1.0,
+          "availability_pct": 98.59817351598173,
+          "wasted_life_cycles": 29.133116883116884,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.9862328767123287,
+          "failures_per_aircraft_year": 0.075,
+          "planned_per_aircraft_year": 2.283333333333333,
+          "flying_delivered": 0.986612607822647,
+          "early_availability": 1.0,
+          "availability_pct": 98.62328767123287,
+          "wasted_life_cycles": 16.587591240875913,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    },
+    {
+      "cell_key": "r1.4_u2_R45",
+      "rate": 1.4,
+      "downtime_ratio": 2,
+      "turnaround": 45,
+      "delta_availability_pp": 0.4109589041095707,
+      "delta_failures": -0.03333333333333299,
+      "waste_ratio": 0.9763119533527697,
+      "delta_flying_pp": 0.4403957109065937,
+      "ci95_pp": [
+        -0.7708333333333338,
+        1.3416095890410948
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.8702283105022831,
+          "failures_per_aircraft_year": 1.4916666666666667,
+          "planned_per_aircraft_year": 0.7916666666666666,
+          "flying_delivered": 0.8713997915303748,
+          "early_availability": 0.9833333333333332,
+          "availability_pct": 87.0228310502283,
+          "wasted_life_cycles": 67.16842105263157,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.8498401826484019,
+          "failures_per_aircraft_year": 1.6083333333333332,
+          "planned_per_aircraft_year": 0.3916666666666667,
+          "flying_delivered": 0.8515621063396164,
+          "early_availability": 1.0,
+          "availability_pct": 84.98401826484019,
+          "wasted_life_cycles": 22.638297872340427,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.8539497716894976,
+          "failures_per_aircraft_year": 1.5750000000000002,
+          "planned_per_aircraft_year": 0.4083333333333333,
+          "flying_delivered": 0.8559660634486823,
+          "early_availability": 0.9994444444444444,
+          "availability_pct": 85.39497716894977,
+          "wasted_life_cycles": 22.102040816326532,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.8442694063926941,
+          "failures_per_aircraft_year": 1.55,
+          "planned_per_aircraft_year": 0.3916666666666667,
+          "flying_delivered": 0.8459035913188726,
+          "early_availability": 0.9994444444444444,
+          "availability_pct": 84.4269406392694,
+          "wasted_life_cycles": 15.638297872340425,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    },
+    {
+      "cell_key": "r1.4_u4_R20",
+      "rate": 1.4,
+      "downtime_ratio": 4,
+      "turnaround": 20,
+      "delta_availability_pp": 0.057077625570778334,
+      "delta_failures": -0.025,
+      "waste_ratio": 1.026808158155787,
+      "delta_flying_pp": 0.10502658013009647,
+      "ci95_pp": [
+        -0.13698630136986273,
+        0.5311073059360758
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.9749771689497717,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 4.574999999999999,
+          "flying_delivered": 0.9739908882298309,
+          "early_availability": 0.97,
+          "availability_pct": 97.49771689497717,
+          "wasted_life_cycles": 100.70856102003643,
+          "reuse_events": 10,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.9847260273972601,
+          "failures_per_aircraft_year": 0.03333333333333333,
+          "planned_per_aircraft_year": 2.5666666666666664,
+          "flying_delivered": 0.9848454484266256,
+          "early_availability": 0.9994444444444444,
+          "availability_pct": 98.47260273972601,
+          "wasted_life_cycles": 28.448051948051948,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.9852968036529679,
+          "failures_per_aircraft_year": 0.008333333333333333,
+          "planned_per_aircraft_year": 2.65,
+          "flying_delivered": 0.9858957142279265,
+          "early_availability": 0.9988888888888887,
+          "availability_pct": 98.52968036529678,
+          "wasted_life_cycles": 29.21069182389937,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.9836301369863015,
+          "failures_per_aircraft_year": 0.13333333333333333,
+          "planned_per_aircraft_year": 2.275,
+          "flying_delivered": 0.9848173996279938,
+          "early_availability": 1.0,
+          "availability_pct": 98.36301369863016,
+          "wasted_life_cycles": 17.146520146520146,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    },
+    {
+      "cell_key": "r1.4_u4_R45",
+      "rate": 1.4,
+      "downtime_ratio": 4,
+      "turnaround": 45,
+      "delta_availability_pp": 0.442922374429211,
+      "delta_failures": -0.06666666666666643,
+      "waste_ratio": 0.9015506671474938,
+      "delta_flying_pp": 0.3069795069857384,
+      "ci95_pp": [
+        -0.7822488584474889,
+        1.1986301369862953
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.8609589041095891,
+          "failures_per_aircraft_year": 1.5416666666666665,
+          "planned_per_aircraft_year": 0.7250000000000001,
+          "flying_delivered": 0.8648057430915962,
+          "early_availability": 0.9833333333333332,
+          "availability_pct": 86.0958904109589,
+          "wasted_life_cycles": 75.42528735632185,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.8482420091324201,
+          "failures_per_aircraft_year": 1.6333333333333333,
+          "planned_per_aircraft_year": 0.41666666666666663,
+          "flying_delivered": 0.8507176322132122,
+          "early_availability": 0.9988888888888889,
+          "availability_pct": 84.82420091324201,
+          "wasted_life_cycles": 25.38,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.8526712328767122,
+          "failures_per_aircraft_year": 1.5666666666666669,
+          "planned_per_aircraft_year": 0.4916666666666666,
+          "flying_delivered": 0.8537874272830696,
+          "early_availability": 0.9977777777777778,
+          "availability_pct": 85.26712328767123,
+          "wasted_life_cycles": 22.88135593220339,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.8418493150684931,
+          "failures_per_aircraft_year": 1.6333333333333335,
+          "planned_per_aircraft_year": 0.37500000000000006,
+          "flying_delivered": 0.8449486588029899,
+          "early_availability": 0.9994444444444444,
+          "availability_pct": 84.18493150684931,
+          "wasted_life_cycles": 16.155555555555555,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    },
+    {
+      "cell_key": "r1.4_u8_R20",
+      "rate": 1.4,
+      "downtime_ratio": 8,
+      "turnaround": 20,
+      "delta_availability_pp": 0.102739726027401,
+      "delta_failures": -0.025,
+      "waste_ratio": 1.0208364854087453,
+      "delta_flying_pp": 0.20829524393467524,
+      "ci95_pp": [
+        -0.20547945205479673,
+        0.9480593607306002
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.9750913242009132,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 4.550000000000001,
+          "flying_delivered": 0.9752795825218218,
+          "early_availability": 0.9702777777777778,
+          "availability_pct": 97.50913242009132,
+          "wasted_life_cycles": 99.66849816849818,
+          "reuse_events": 10,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.9844292237442923,
+          "failures_per_aircraft_year": 0.025,
+          "planned_per_aircraft_year": 2.591666666666667,
+          "flying_delivered": 0.9836052201597625,
+          "early_availability": 0.9983333333333334,
+          "availability_pct": 98.44292237442923,
+          "wasted_life_cycles": 27.514469453376204,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.9854566210045663,
+          "failures_per_aircraft_year": 0.0,
+          "planned_per_aircraft_year": 2.658333333333333,
+          "flying_delivered": 0.9856881725991092,
+          "early_availability": 0.9980555555555556,
+          "availability_pct": 98.54566210045664,
+          "wasted_life_cycles": 28.087774294670847,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.9855251141552511,
+          "failures_per_aircraft_year": 0.025,
+          "planned_per_aircraft_year": 2.4250000000000003,
+          "flying_delivered": 0.9857291803220557,
+          "early_availability": 0.9997222222222222,
+          "availability_pct": 98.55251141552512,
+          "wasted_life_cycles": 16.415807560137456,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    },
+    {
+      "cell_key": "r1.4_u8_R45",
+      "rate": 1.4,
+      "downtime_ratio": 8,
+      "turnaround": 45,
+      "delta_availability_pp": 0.25799086757990475,
+      "delta_failures": -0.050000000000000266,
+      "waste_ratio": 0.9177081460169035,
+      "delta_flying_pp": 0.20578702389357773,
+      "ci95_pp": [
+        -0.7480022831050271,
+        1.347031963470319
+      ],
+      "policy_metrics": {
+        "HT": {
+          "availability": 0.8453652968036531,
+          "failures_per_aircraft_year": 1.4416666666666669,
+          "planned_per_aircraft_year": 0.8,
+          "flying_delivered": 0.8523860784009827,
+          "early_availability": 0.9833333333333332,
+          "availability_pct": 84.53652968036532,
+          "wasted_life_cycles": 69.96875,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "CT": {
+          "availability": 0.838904109589041,
+          "failures_per_aircraft_year": 1.475,
+          "planned_per_aircraft_year": 0.5166666666666667,
+          "flying_delivered": 0.8431125236831039,
+          "early_availability": 1.0,
+          "availability_pct": 83.8904109589041,
+          "wasted_life_cycles": 21.419354838709676,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "FC": {
+          "availability": 0.8414840182648401,
+          "failures_per_aircraft_year": 1.4249999999999998,
+          "planned_per_aircraft_year": 0.5583333333333333,
+          "flying_delivered": 0.8451703939220396,
+          "early_availability": 0.9980555555555556,
+          "availability_pct": 84.148401826484,
+          "wasted_life_cycles": 19.65671641791045,
+          "reuse_events": 0,
+          "cap_events": 0
+        },
+        "OR": {
+          "availability": 0.8320319634703198,
+          "failures_per_aircraft_year": 1.5166666666666666,
+          "planned_per_aircraft_year": 0.4166666666666667,
+          "flying_delivered": 0.8369131545010239,
+          "early_availability": 1.0,
+          "availability_pct": 83.20319634703198,
+          "wasted_life_cycles": 15.36,
+          "reuse_events": 0,
+          "cap_events": 0
+        }
+      }
+    }
+  ],
+  "frontier": [
+    {
+      "policy": "HT",
+      "parameter": 100,
+      "availability": 0.9603640284119738,
+      "failures_per_aircraft_year": 0.3023148148148148,
+      "planned_per_aircraft_year": 2.503240740740741,
+      "flying_delivered": 0.9612269448508051,
+      "early_availability": 0.9789197530864198,
+      "availability_pct": 96.03640284119737,
+      "wasted_life_cycles": 98.26040318106159,
+      "reuse_events": 30,
+      "cap_events": 0
+    },
+    {
+      "policy": "HT",
+      "parameter": 110,
+      "availability": 0.9613774733637748,
+      "failures_per_aircraft_year": 0.3092592592592593,
+      "planned_per_aircraft_year": 2.329629629629629,
+      "flying_delivered": 0.9620571907651664,
+      "early_availability": 0.9818981481481482,
+      "availability_pct": 96.13774733637747,
+      "wasted_life_cycles": 91.78954689984101,
+      "reuse_events": 30,
+      "cap_events": 0
+    },
+    {
+      "policy": "HT",
+      "parameter": 120,
+      "availability": 0.9622513952308475,
+      "failures_per_aircraft_year": 0.3222222222222222,
+      "planned_per_aircraft_year": 2.1435185185185186,
+      "flying_delivered": 0.9628954651350016,
+      "early_availability": 0.9849228395061728,
+      "availability_pct": 96.22513952308475,
+      "wasted_life_cycles": 84.29006479481642,
+      "reuse_events": 15,
+      "cap_events": 0
+    },
+    {
+      "policy": "HT",
+      "parameter": 130,
+      "availability": 0.9626306443429731,
+      "failures_per_aircraft_year": 0.3333333333333333,
+      "planned_per_aircraft_year": 1.9717592592592594,
+      "flying_delivered": 0.9634477159438789,
+      "early_availability": 0.9886419753086421,
+      "availability_pct": 96.2630644342973,
+      "wasted_life_cycles": 76.01432261094153,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "HT",
+      "parameter": 140,
+      "availability": 0.9615563165905632,
+      "failures_per_aircraft_year": 0.3592592592592593,
+      "planned_per_aircraft_year": 1.7925925925925927,
+      "flying_delivered": 0.9624808190118396,
+      "early_availability": 0.9915432098765431,
+      "availability_pct": 96.15563165905631,
+      "wasted_life_cycles": 68.24431818181819,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "HT",
+      "parameter": 150,
+      "availability": 0.9588330796549974,
+      "failures_per_aircraft_year": 0.43194444444444435,
+      "planned_per_aircraft_year": 1.57962962962963,
+      "flying_delivered": 0.959715806475886,
+      "early_availability": 0.9943981481481482,
+      "availability_pct": 95.88330796549974,
+      "wasted_life_cycles": 61.960140679953106,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "HT",
+      "parameter": 160,
+      "availability": 0.9544951801116184,
+      "failures_per_aircraft_year": 0.5504629629629629,
+      "planned_per_aircraft_year": 1.3458333333333334,
+      "flying_delivered": 0.955474829813468,
+      "early_availability": 0.9963271604938271,
+      "availability_pct": 95.44951801116184,
+      "wasted_life_cycles": 58.4468524251806,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "HT",
+      "parameter": 170,
+      "availability": 0.9511884830035515,
+      "failures_per_aircraft_year": 0.6472222222222224,
+      "planned_per_aircraft_year": 1.1629629629629628,
+      "flying_delivered": 0.9523510189138468,
+      "early_availability": 0.9977623456790122,
+      "availability_pct": 95.11884830035515,
+      "wasted_life_cycles": 53.24482484076433,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "HT",
+      "parameter": 180,
+      "availability": 0.947710553018772,
+      "failures_per_aircraft_year": 0.7388888888888889,
+      "planned_per_aircraft_year": 0.9944444444444445,
+      "flying_delivered": 0.9489330737937375,
+      "early_availability": 0.9985802469135803,
+      "availability_pct": 94.77105530187721,
+      "wasted_life_cycles": 48.256052141527,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "HT",
+      "parameter": 190,
+      "availability": 0.9429895991882292,
+      "failures_per_aircraft_year": 0.8569444444444444,
+      "planned_per_aircraft_year": 0.8189814814814814,
+      "flying_delivered": 0.9443293714718469,
+      "early_availability": 0.9992746913580247,
+      "availability_pct": 94.29895991882292,
+      "wasted_life_cycles": 44.88694177501413,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "HT",
+      "parameter": 200,
+      "availability": 0.9381785895484527,
+      "failures_per_aircraft_year": 1.0393518518518519,
+      "planned_per_aircraft_year": 0.5777777777777777,
+      "flying_delivered": 0.939584507350035,
+      "early_availability": 0.9997067901234566,
+      "availability_pct": 93.81785895484526,
+      "wasted_life_cycles": 48.162660256410255,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "HT",
+      "parameter": 210,
+      "availability": 0.9351065449010656,
+      "failures_per_aircraft_year": 1.1069444444444445,
+      "planned_per_aircraft_year": 0.4777777777777778,
+      "flying_delivered": 0.9366436700315395,
+      "early_availability": 0.9998456790123456,
+      "availability_pct": 93.51065449010656,
+      "wasted_life_cycles": 45.32364341085271,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "HT",
+      "parameter": 220,
+      "availability": 0.9336707255200406,
+      "failures_per_aircraft_year": 1.1458333333333333,
+      "planned_per_aircraft_year": 0.4032407407407408,
+      "flying_delivered": 0.9353248710062758,
+      "early_availability": 0.9999537037037037,
+      "availability_pct": 93.36707255200406,
+      "wasted_life_cycles": 40.045924225028706,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "HT",
+      "parameter": 230,
+      "availability": 0.9322425164890917,
+      "failures_per_aircraft_year": 1.1925925925925924,
+      "planned_per_aircraft_year": 0.3333333333333333,
+      "flying_delivered": 0.9339528393170455,
+      "early_availability": 1.0,
+      "availability_pct": 93.22425164890917,
+      "wasted_life_cycles": 35.575,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "HT",
+      "parameter": 240,
+      "availability": 0.9308155758498224,
+      "failures_per_aircraft_year": 1.2435185185185185,
+      "planned_per_aircraft_year": 0.2601851851851852,
+      "flying_delivered": 0.9328596461926411,
+      "early_availability": 1.0,
+      "availability_pct": 93.08155758498225,
+      "wasted_life_cycles": 32.195729537366546,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "HT",
+      "parameter": 250,
+      "availability": 0.9297272957889396,
+      "failures_per_aircraft_year": 1.2740740740740741,
+      "planned_per_aircraft_year": 0.2125,
+      "flying_delivered": 0.9315375958804731,
+      "early_availability": 1.0,
+      "availability_pct": 92.97272957889396,
+      "wasted_life_cycles": 27.18954248366013,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "HT",
+      "parameter": 260,
+      "availability": 0.928545154743785,
+      "failures_per_aircraft_year": 1.3152777777777778,
+      "planned_per_aircraft_year": 0.1550925925925926,
+      "flying_delivered": 0.9303188187881546,
+      "early_availability": 1.0,
+      "availability_pct": 92.8545154743785,
+      "wasted_life_cycles": 24.83283582089552,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.02,
+      "availability": 0.9382394723490614,
+      "failures_per_aircraft_year": 0.9652777777777778,
+      "planned_per_aircraft_year": 0.512962962962963,
+      "flying_delivered": 0.9395879960608802,
+      "early_availability": 1.0,
+      "availability_pct": 93.82394723490613,
+      "wasted_life_cycles": 7.398916967509026,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.04,
+      "availability": 0.9392947742262812,
+      "failures_per_aircraft_year": 0.9342592592592593,
+      "planned_per_aircraft_year": 0.5504629629629629,
+      "flying_delivered": 0.9405948294326332,
+      "early_availability": 1.0,
+      "availability_pct": 93.92947742262811,
+      "wasted_life_cycles": 8.114381833473507,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.06,
+      "availability": 0.9402638254693051,
+      "failures_per_aircraft_year": 0.8995370370370371,
+      "planned_per_aircraft_year": 0.587037037037037,
+      "flying_delivered": 0.9415024521555005,
+      "early_availability": 1.0,
+      "availability_pct": 94.0263825469305,
+      "wasted_life_cycles": 8.677444794952681,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.08,
+      "availability": 0.9414079147640791,
+      "failures_per_aircraft_year": 0.863425925925926,
+      "planned_per_aircraft_year": 0.6310185185185185,
+      "flying_delivered": 0.942552204823934,
+      "early_availability": 1.0,
+      "availability_pct": 94.14079147640791,
+      "wasted_life_cycles": 9.607483492296405,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.1,
+      "availability": 0.9424099441907661,
+      "failures_per_aircraft_year": 0.8268518518518517,
+      "planned_per_aircraft_year": 0.6726851851851853,
+      "flying_delivered": 0.9434718397298231,
+      "early_availability": 1.0,
+      "availability_pct": 94.2409944190766,
+      "wasted_life_cycles": 10.07570543702684,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.12,
+      "availability": 0.9441070522577372,
+      "failures_per_aircraft_year": 0.7611111111111111,
+      "planned_per_aircraft_year": 0.7472222222222222,
+      "flying_delivered": 0.9450380870114753,
+      "early_availability": 1.0,
+      "availability_pct": 94.41070522577371,
+      "wasted_life_cycles": 10.531598513011152,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.14,
+      "availability": 0.9451978691019788,
+      "failures_per_aircraft_year": 0.7365740740740742,
+      "planned_per_aircraft_year": 0.7773148148148149,
+      "flying_delivered": 0.9461801743786051,
+      "early_availability": 1.0,
+      "availability_pct": 94.51978691019788,
+      "wasted_life_cycles": 11.522334723049434,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.16,
+      "availability": 0.9469812278031456,
+      "failures_per_aircraft_year": 0.6819444444444445,
+      "planned_per_aircraft_year": 0.8453703703703704,
+      "flying_delivered": 0.9479189575106947,
+      "early_availability": 1.0,
+      "availability_pct": 94.69812278031456,
+      "wasted_life_cycles": 12.279299014238774,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.18,
+      "availability": 0.948480466768138,
+      "failures_per_aircraft_year": 0.650925925925926,
+      "planned_per_aircraft_year": 0.886574074074074,
+      "flying_delivered": 0.9493921952364173,
+      "early_availability": 1.0,
+      "availability_pct": 94.84804667681381,
+      "wasted_life_cycles": 13.470496083550914,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.2,
+      "availability": 0.9512062404870624,
+      "failures_per_aircraft_year": 0.5578703703703703,
+      "planned_per_aircraft_year": 0.9902777777777778,
+      "flying_delivered": 0.9519640320112919,
+      "early_availability": 1.0,
+      "availability_pct": 95.12062404870623,
+      "wasted_life_cycles": 13.678354371201497,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.22,
+      "availability": 0.9533054287163876,
+      "failures_per_aircraft_year": 0.5023148148148147,
+      "planned_per_aircraft_year": 1.0583333333333333,
+      "flying_delivered": 0.9538893238741837,
+      "early_availability": 1.0,
+      "availability_pct": 95.33054287163876,
+      "wasted_life_cycles": 14.416885389326334,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.24,
+      "availability": 0.954519279553526,
+      "failures_per_aircraft_year": 0.4708333333333333,
+      "planned_per_aircraft_year": 1.1032407407407407,
+      "flying_delivered": 0.9550534798495081,
+      "early_availability": 1.0,
+      "availability_pct": 95.4519279553526,
+      "wasted_life_cycles": 15.423835501468737,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.26,
+      "availability": 0.9556367326230341,
+      "failures_per_aircraft_year": 0.45092592592592595,
+      "planned_per_aircraft_year": 1.1351851851851853,
+      "flying_delivered": 0.9560076979626757,
+      "early_availability": 1.0,
+      "availability_pct": 95.56367326230341,
+      "wasted_life_cycles": 16.71451876019576,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.28,
+      "availability": 0.9566730086250635,
+      "failures_per_aircraft_year": 0.4314814814814814,
+      "planned_per_aircraft_year": 1.1657407407407407,
+      "flying_delivered": 0.9571919315306616,
+      "early_availability": 1.0,
+      "availability_pct": 95.66730086250635,
+      "wasted_life_cycles": 17.849086576648133,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.3,
+      "availability": 0.957756215119229,
+      "failures_per_aircraft_year": 0.41712962962962963,
+      "planned_per_aircraft_year": 1.1930555555555555,
+      "flying_delivered": 0.958170318954927,
+      "early_availability": 1.0,
+      "availability_pct": 95.7756215119229,
+      "wasted_life_cycles": 19.35894450911913,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.32,
+      "availability": 0.9590461694571284,
+      "failures_per_aircraft_year": 0.39166666666666666,
+      "planned_per_aircraft_year": 1.2370370370370372,
+      "flying_delivered": 0.9592299039173147,
+      "early_availability": 1.0,
+      "availability_pct": 95.90461694571285,
+      "wasted_life_cycles": 20.84131736526946,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.34,
+      "availability": 0.9599809741248098,
+      "failures_per_aircraft_year": 0.3824074074074075,
+      "planned_per_aircraft_year": 1.261574074074074,
+      "flying_delivered": 0.9602963900580698,
+      "early_availability": 0.9999074074074074,
+      "availability_pct": 95.99809741248097,
+      "wasted_life_cycles": 22.72256880733945,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.36,
+      "availability": 0.960832064941654,
+      "failures_per_aircraft_year": 0.3703703703703704,
+      "planned_per_aircraft_year": 1.2930555555555556,
+      "flying_delivered": 0.961168809830984,
+      "early_availability": 0.9998919753086419,
+      "availability_pct": 96.0832064941654,
+      "wasted_life_cycles": 24.24453992123165,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.38,
+      "availability": 0.9616869609335362,
+      "failures_per_aircraft_year": 0.35694444444444445,
+      "planned_per_aircraft_year": 1.3324074074074073,
+      "flying_delivered": 0.9621837745376095,
+      "early_availability": 0.9998765432098764,
+      "availability_pct": 96.16869609335362,
+      "wasted_life_cycles": 26.169214732453092,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "CT",
+      "parameter": 0.4,
+      "availability": 0.962290715372907,
+      "failures_per_aircraft_year": 0.34398148148148144,
+      "planned_per_aircraft_year": 1.3597222222222218,
+      "flying_delivered": 0.9627232562720053,
+      "early_availability": 0.9998148148148148,
+      "availability_pct": 96.22907153729071,
+      "wasted_life_cycles": 27.729315628192033,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "FC",
+      "parameter": 0.02,
+      "availability": 0.9637747336377475,
+      "failures_per_aircraft_year": 0.3259259259259259,
+      "planned_per_aircraft_year": 1.3587962962962963,
+      "flying_delivered": 0.9641542738526997,
+      "early_availability": 0.999537037037037,
+      "availability_pct": 96.37747336377474,
+      "wasted_life_cycles": 24.662010221465078,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "FC",
+      "parameter": 0.05,
+      "availability": 0.9632217148655505,
+      "failures_per_aircraft_year": 0.3347222222222222,
+      "planned_per_aircraft_year": 1.3314814814814815,
+      "flying_delivered": 0.9637387825765373,
+      "early_availability": 0.9996759259259259,
+      "availability_pct": 96.32217148655505,
+      "wasted_life_cycles": 23.113004172461753,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "FC",
+      "parameter": 0.1,
+      "availability": 0.961943176052765,
+      "failures_per_aircraft_year": 0.3481481481481482,
+      "planned_per_aircraft_year": 1.2828703703703705,
+      "flying_delivered": 0.9621843722417988,
+      "early_availability": 0.9998765432098764,
+      "availability_pct": 96.1943176052765,
+      "wasted_life_cycles": 19.450739805124503,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "FC",
+      "parameter": 0.15,
+      "availability": 0.9614053779807205,
+      "failures_per_aircraft_year": 0.3578703703703704,
+      "planned_per_aircraft_year": 1.2648148148148148,
+      "flying_delivered": 0.9619214755881651,
+      "early_availability": 0.9998919753086419,
+      "availability_pct": 96.14053779807205,
+      "wasted_life_cycles": 18.424231332357248,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "FC",
+      "parameter": 0.2,
+      "availability": 0.9612189244038559,
+      "failures_per_aircraft_year": 0.3625,
+      "planned_per_aircraft_year": 1.260185185185185,
+      "flying_delivered": 0.9617180094118718,
+      "early_availability": 0.9998919753086419,
+      "availability_pct": 96.1218924403856,
+      "wasted_life_cycles": 18.149522409992652,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "FC",
+      "parameter": 0.3,
+      "availability": 0.9602130898021307,
+      "failures_per_aircraft_year": 0.3736111111111111,
+      "planned_per_aircraft_year": 1.2319444444444445,
+      "flying_delivered": 0.9608678573718823,
+      "early_availability": 0.9998919753086419,
+      "availability_pct": 96.02130898021308,
+      "wasted_life_cycles": 16.887636226982337,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "FC",
+      "parameter": 0.4,
+      "availability": 0.958947234906139,
+      "failures_per_aircraft_year": 0.3865740740740741,
+      "planned_per_aircraft_year": 1.2050925925925924,
+      "flying_delivered": 0.9595739395395021,
+      "early_availability": 0.9999537037037037,
+      "availability_pct": 95.8947234906139,
+      "wasted_life_cycles": 15.15904725316942,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    {
+      "policy": "FC",
+      "parameter": 0.5,
+      "availability": 0.9587303399289702,
+      "failures_per_aircraft_year": 0.39305555555555555,
+      "planned_per_aircraft_year": 1.1935185185185184,
+      "flying_delivered": 0.9593871841754642,
+      "early_availability": 0.9999691358024692,
+      "availability_pct": 95.87303399289702,
+      "wasted_life_cycles": 14.724980605120248,
+      "reuse_events": 0,
+      "cap_events": 0
+    }
+  ],
+  "metrics": {
+    "HT": {
+      "availability": 0.9603640284119738,
+      "failures_per_aircraft_year": 0.3023148148148148,
+      "planned_per_aircraft_year": 2.503240740740741,
+      "flying_delivered": 0.9612269448508051,
+      "early_availability": 0.9789197530864198,
+      "availability_pct": 96.03640284119737,
+      "wasted_life_cycles": 98.26040318106159,
+      "reuse_events": 30,
+      "cap_events": 0
+    },
+    "CT": {
+      "availability": 0.962290715372907,
+      "failures_per_aircraft_year": 0.34398148148148144,
+      "planned_per_aircraft_year": 1.3597222222222218,
+      "flying_delivered": 0.9627232562720053,
+      "early_availability": 0.9998148148148148,
+      "availability_pct": 96.22907153729071,
+      "wasted_life_cycles": 27.729315628192033,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    "FC": {
+      "availability": 0.9637747336377475,
+      "failures_per_aircraft_year": 0.3259259259259259,
+      "planned_per_aircraft_year": 1.3587962962962963,
+      "flying_delivered": 0.9641542738526997,
+      "early_availability": 0.999537037037037,
+      "availability_pct": 96.37747336377474,
+      "wasted_life_cycles": 24.662010221465078,
+      "reuse_events": 0,
+      "cap_events": 0
+    },
+    "OR": {
+      "availability": 0.9578627600202941,
+      "failures_per_aircraft_year": 0.4018518518518519,
+      "planned_per_aircraft_year": 1.1666666666666667,
+      "flying_delivered": 0.9586104469896529,
+      "early_availability": 0.9999228395061729,
+      "availability_pct": 95.78627600202941,
+      "wasted_life_cycles": 12.80595238095238,
+      "reuse_events": 0,
+      "cap_events": 0
+    }
+  },
+  "losing_cells": [
+    "r0.6_u2_R45",
+    "r0.6_u4_R45"
+  ]
+}

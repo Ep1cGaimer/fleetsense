@@ -1,0 +1,9 @@
+inter-var.woff2           Inter, Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)
+jetbrains-mono-var.woff2  JetBrains Mono, Copyright 2020 The JetBrains Mono Project Authors
+
+Both fonts are licensed under the SIL Open Font License, Version 1.1
+(https://openfontlicense.org). They are bundled locally so the UI never
+requests a web font: on an air-gapped workstation that request would itself
+be an outbound connection.
+
+Icons in index.html are from Lucide (https://lucide.dev), ISC License.

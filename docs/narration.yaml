@@ -1,0 +1,23 @@
+- shot: title
+  text: FleetSense. Fleet readiness and predictive maintenance for an air squadron,
+    running entirely on base servers.
+- shot: fleet
+  text: The fleet board shows every airframe, its installed engine, and the calibrated
+    risk that the engine fails within its next twenty cycles. Playing the year replays
+    every removal request, engine change and overhaul, with spare engines tracked
+    on the shelf.
+- shot: engine
+  text: Each engine's sensor trend is compared with healthy engines at the same age,
+    and its failure risk is shown across planning horizons against the removal threshold.
+- shot: policies
+  text: The policy lab runs fixed-interval, condition-based and predictive maintenance
+    against the same simulated squadron. Predictive removal gave the highest availability
+    and left 11 percent less engine life on the table. The lab also shows when spare-engine
+    supply, not forecasting, sets the ceiling.
+- shot: calibration
+  text: Model trust checks that a risk score means what it says, on engines the model
+    never saw. 86.5 percent of failures were flagged before they happened.
+- shot: audits
+  text: 'Every schedule is re-checked by an independent rule engine: 0 violations
+    across 44,820 simulated squadron-years. 200 airframes simulate a full year in
+    0.64 seconds.'

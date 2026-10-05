@@ -1,0 +1,14 @@
+{
+  "authoritative_source": "sih-2026/tooling",
+  "distribution": "Generated standalone-repository snapshots. Edit the authoritative source, then synchronize.",
+  "sha256": {
+    "submission/build_deck.py": "4b95d9fe7698f4b8c03a16cb905bfa25f279eaee88263bfc6e05a25a42c575da",
+    "submission/export_pdf.ps1": "9ccc400dc0016a1d4ebaa2e42b10414afb2529f2dda2e861b4c95f876e536462",
+    "submission/README.md": "f1620b3436c0098301ce05c7ebdf4435de949d8320a6c504a6002b1bfb922d52",
+    "scripts/capture_screens.py": "2c3a59327d1e5971304911a965d978b4f2df031feaead286ede925ae1e3975ef",
+    "scripts/record_demo.py": "ef7556ca97efe7be43a4d6bb0486731ebad29e875dcd8266dd4991b234d37fec",
+    "scripts/make_video.py": "84503e9da478a556c85ef595da9137ccf685ad2ea0b49dba5004a0946e1ccfe3",
+    "scripts/check_submission.py": "b0f8cac5ade23c870a56db26496de1e729a4192604b5475f21957d9af238f422",
+    "scripts/media_common.py": "28cab9829518a60acedb3f83141be2bda98d66fa4b0e94a90b7f7b6620327633"
+  }
+}
